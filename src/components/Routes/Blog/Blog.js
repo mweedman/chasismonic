@@ -1,5 +1,6 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar'
+import NavBar from '../../NavBar/NavBar'
+import BlogFeed from '../../Blogfeed/Blogfeed'
 
 class Blog extends React.Component {
 
@@ -8,7 +9,7 @@ class Blog extends React.Component {
         return(
             <div>
                 <NavBar></NavBar>
-                <h1>Blog Page</h1>
+                <BlogFeed />
             </div>
         )
     }

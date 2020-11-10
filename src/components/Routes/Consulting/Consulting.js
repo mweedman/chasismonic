@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar'
+import NavBar from '../../NavBar/NavBar'
 
 class Consulting extends React.Component {
 
