@@ -7,18 +7,20 @@ class Socials extends React.Component {
 
 render(){
     return(
+            
         <ul className="socials">
             <li>
-                <a href="https://www.instagram.com/annederella_style/" target="_blank">
+                <a href="https://www.instagram.com/annederella_style/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
             </li>
             <li>
-                <a href="https://facebook.com/" target="_blank">
+                <a href="https://facebook.com/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faFacebook} size="2x" />
                     </a>
             </li>
         </ul>
+
     )
 }
 }

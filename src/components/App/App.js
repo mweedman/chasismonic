@@ -1,12 +1,12 @@
 import {Route, Switch} from 'react-router-dom'
-import LandingView from '../Routes/Landing/LandingView'
-import NotFoundRoute from '../Routes/NotFoundRoute/NotFoundRoute'
-import Artwork from '../Routes/Artwork/Artwork'
-import Classes from '../Routes/Classes/Classes'
-import Blog from '../Routes/Blog/Blog'
-import Consulting from '../Routes/Consulting/Consulting'
-import Login from '../Routes/Login/Login'
-import CreateAccount from '../Routes/Create-Account/CreateAccount'
+import LandingView from '../../routes/Landing/LandingView'
+import NotFoundRoute from '../../routes/NotFoundRoute/NotFoundRoute'
+import Artwork from '../../routes/Artwork/Artwork'
+import Classes from '../../routes/Classes/Classes'
+import Blog from '../../routes/Blog/Blog'
+import Consulting from '../../routes/Consulting/Consulting'
+import Login from '../../routes/Login/Login'
+import CreateAccount from '../../routes/Create-Account/CreateAccount'
 import './App.css';
 
 function App() {

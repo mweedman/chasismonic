@@ -37,6 +37,8 @@ class NavBar extends React.Component {
                 </div>
 
                 <div className="SocialBox">
+                    <Link to="/create">Signup</Link>
+                    <Link to="/login">Login</Link>
                     <Socials></Socials>
                 </div>
 

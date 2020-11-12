@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from '../../NavBar/NavBar'
-import Content from '../../Content/Content'
-import Footer from '../../Footer/Footer'
+import NavBar from '../../components/NavBar/NavBar'
+import Content from '../../components/Content/Content'
+import Footer from '../../components/Footer/Footer'
 
 
 class LandingView extends React.Component {

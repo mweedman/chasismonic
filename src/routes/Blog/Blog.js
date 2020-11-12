@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from '../../NavBar/NavBar'
-import BlogFeed from '../../Blogfeed/Blogfeed'
+import NavBar from '../../components/NavBar/NavBar'
+import BlogFeed from '../../components/Blogfeed/Blogfeed'
 
 class Blog extends React.Component {
 
