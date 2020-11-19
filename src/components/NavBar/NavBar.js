@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Socials from '../Socials/Socials'
+import logo from '../../images/chasismonicLogo2.png'
 import './NavBar.css'
 
 class NavBar extends React.Component {
@@ -16,25 +17,30 @@ class NavBar extends React.Component {
         return(
             <div className="navBar">
 
-                <div className="NavigationLinks">
+                <div className="navigationLinks">
                     <ul>
                         <li>
-                            <Link to='/'>Home</Link>
+                            <Link to='/consulting'>Offerings</Link>
                         </li>
                         <li>
-                            <Link to='/consulting'>Consulting</Link>
+                            <Link to='/artwork'>Art Shop</Link>
                         </li>
                         <li>
-                            <Link to='/classes'>Classes</Link>
+                            <Link to='/blog'>My Diary</Link>
                         </li>
                         <li>
-                            <Link to='/artwork'>Artwork</Link>
-                        </li>
-                        <li>
-                            <Link to='/blog'>Blog</Link>
+                            <Link to='/aboutme'>About Me</Link>
                         </li>
                     </ul>
                 </div>
+
+                <div className="logo">
+                    <Link to='/'>
+                        <img src={logo}></img>
+                    </Link>
+                </div>
+                
+                
 
                 <div className="SocialBox">
                     <Link to="/create">Signup</Link>
